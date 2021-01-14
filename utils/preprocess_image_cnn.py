@@ -6,7 +6,7 @@ D = 9
 SIGMACOLOR = 75
 SIGMASPACE = 75
 
-def preprocess_mobilenet(image):
+def preprocess_mobilenetV2(image):
   image = cv2.bilateralFilter(image, d=D, sigmaColor=SIGMACOLOR, sigmaSpace=SIGMASPACE)
   image = mobilenet_v2.preprocess_input(image, data_format=None)
   return image
