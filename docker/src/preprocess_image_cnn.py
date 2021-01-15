@@ -1,7 +1,6 @@
 import cv2
 from tensorflow.keras.applications import vgg16, mobilenet_v2
 
-
 D = 9
 SIGMACOLOR = 75
 SIGMASPACE = 75
