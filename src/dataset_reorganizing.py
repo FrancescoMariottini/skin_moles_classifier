@@ -5,8 +5,8 @@ import pandas as pd
 
 # establishing the main files/directories paths
 project_dir_path = os.path.abspath(os.pardir)
-unlabeled_data_dir = 'dataset'
-labeled_data_dir = 'labeled_dataset'
+unlabeled_data_dir = 'data/dataset'
+labeled_data_dir = 'data/labeled_dataset'
 unlabeled_data_dir_path = os.path.join(project_dir_path, unlabeled_data_dir)
 labeled_data_dir_path = os.path.join(project_dir_path, labeled_data_dir)
 
